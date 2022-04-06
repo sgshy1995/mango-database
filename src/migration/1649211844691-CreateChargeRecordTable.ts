@@ -26,7 +26,7 @@ export class CreateChargeRecordTable1649211844691 implements MigrationInterface 
                 },
                 {
                     name: 'charge_num',
-                    type: 'decima',
+                    type: 'float',
                     isNullable: false
                 },
                 {
