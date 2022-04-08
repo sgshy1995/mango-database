@@ -35,6 +35,11 @@ export class CreateChargeRecordTable1649211844691 implements MigrationInterface 
                     isNullable: false
                 },
                 {
+                    name: 'team_id',
+                    type: 'int',
+                    isNullable: false
+                },
+                {
                     name: 'charge_time',
                     type: 'varchar',
                     isNullable: false

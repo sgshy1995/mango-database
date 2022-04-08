@@ -1,10 +1,10 @@
-import { MigrationInterface, QueryRunner, Table } from "typeorm";
+import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
-export class CreateUserTable1648718953487 implements MigrationInterface {
+export class CreateTeamTable1649398305768 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.createTable(new Table({
-            name: 'users',
+            name: 'teams',
             columns: [
                 {
                     name: 'id',
@@ -15,49 +15,24 @@ export class CreateUserTable1648718953487 implements MigrationInterface {
                     isNullable: false
                 },
                 {
-                    name: 'username',
-                    type: 'varchar',
-                    isNullable: false
-                },
-                {
-                    name: 'nickname',
-                    type: 'varchar',
-                    isNullable: false
-                },
-                {
-                    name: 'password',
-                    type: 'varchar',
-                    isNullable: false
-                },
-                {
-                    name: 'salt',
-                    type: 'varchar',
-                    isNullable: false
-                },
-                {
-                    name: 'gender',
+                    name: 'owner',
                     type: 'int',
-                    isNullable: true
+                    isNullable: false
                 },
                 {
-                    name: 'avatar',
-                    type: 'text',
-                    isNullable: true
-                },
-                {
-                    name: 'birthday',
+                    name: 'members',
                     type: 'varchar',
-                    isNullable: true
+                    isNullable: false
                 },
                 {
-                    name: 'phone',
-                    type: 'varchar',
-                    isNullable: true
+                    name: 'members_num',
+                    type: 'int',
+                    isNullable: false
                 },
                 {
-                    name: 'email',
+                    name: 'name',
                     type: 'varchar',
-                    isNullable: true
+                    isNullable: false
                 },
                 {
                     name: 'status',
@@ -68,16 +43,6 @@ export class CreateUserTable1648718953487 implements MigrationInterface {
                     name: 'primary_key',
                     type: 'varchar',
                     isNullable: false
-                },
-                {
-                    name: 'team_id',
-                    type: 'int',
-                    isNullable: true
-                },
-                {
-                    name: 'team_name',
-                    type: 'varchar',
-                    isNullable: true
                 },
                 {
                     name: 'created_at',
@@ -96,7 +61,7 @@ export class CreateUserTable1648718953487 implements MigrationInterface {
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable('users');
+        await queryRunner.dropTable('teams');
     }
 
 }
