@@ -15,6 +15,7 @@
       "@babel/plugin-transform-runtime": "^7.17.0",
       "@babel/preset-env": "^7.16.11",
       "@babel/preset-typescript": "^7.16.7",
+      "concurrently": "^7.1.0",
       "mysql": "^2.18.1",
       "mysql2": "^2.3.3",
       "reflect-metadata": "^0.1.13",
