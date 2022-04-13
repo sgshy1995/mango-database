@@ -1,12 +1,15 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm";
 
-@Entity('charge_types')
-export class ChargeType {
+@Entity('team_charge_types')
+export class TeamChargeType {
     @PrimaryGeneratedColumn()
     id: number;
 
     @Column('varchar')
     name: string;
+
+    @Column('varchar')
+    realname: string;
 
     @Column('text')
     icon: string;
@@ -16,6 +19,9 @@ export class ChargeType {
 
     @Column('int')
     created_by: number;
+
+    @Column('int')
+    team_id: number;
 
     @Column('int')
     balance_type: number;
