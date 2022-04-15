@@ -36,7 +36,7 @@ export class CreatePersonalChargeRecordTable1649211844691 implements MigrationIn
                 },
                 {
                     name: 'charge_time',
-                    type: 'varchar',
+                    type: 'timestamp',
                     isNullable: false
                 },
                 {

@@ -41,7 +41,7 @@ export class CreateTeamChargeRecordTable1649639456130 implements MigrationInterf
                 },
                 {
                     name: 'charge_time',
-                    type: 'varchar',
+                    type: 'timestamp',
                     isNullable: false
                 },
                 {

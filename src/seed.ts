@@ -10,7 +10,7 @@ createConnection().then(async connection => {
         {
             name: '餐饮',
             realname: 'food',
-            icon: '餐饮.png',
+            icon: '汉堡.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
@@ -19,7 +19,7 @@ createConnection().then(async connection => {
         {
             name: '果蔬',
             realname: 'vegetable',
-            icon: '果蔬.png',
+            icon: '荔枝.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
@@ -28,7 +28,7 @@ createConnection().then(async connection => {
         {
             name: '衣服',
             realname: 'clothes',
-            icon: '衣服.png',
+            icon: '裙子.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
@@ -37,7 +37,7 @@ createConnection().then(async connection => {
         {
             name: '汽车',
             realname: 'car',
-            icon: '汽车.png',
+            icon: '奥迪.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
@@ -55,7 +55,7 @@ createConnection().then(async connection => {
         {
             name: '超市',
             realname: 'supermarket',
-            icon: '超市.png',
+            icon: '购物车.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
@@ -82,7 +82,7 @@ createConnection().then(async connection => {
         {
             name: '便利店',
             realname: 'convenience',
-            icon: '便利店.png',
+            icon: '商店.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
@@ -91,7 +91,7 @@ createConnection().then(async connection => {
         {
             name: '交通',
             realname: 'traffic',
-            icon: '交通.png',
+            icon: '行李.png',
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
