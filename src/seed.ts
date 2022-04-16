@@ -14,7 +14,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 1
         },
         {
             name: '果蔬',
@@ -23,7 +24,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 2
         },
         {
             name: '衣服',
@@ -32,7 +34,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 3
         },
         {
             name: '汽车',
@@ -41,7 +44,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 4
         },
         {
             name: '淘宝',
@@ -50,7 +54,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 5
         },
         {
             name: '超市',
@@ -59,7 +64,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 6
         },
         {
             name: '缴费',
@@ -68,7 +74,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 7
         },
         {
             name: '美容',
@@ -77,7 +84,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 8
         },
         {
             name: '便利店',
@@ -86,7 +94,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 9
         },
         {
             name: '交通',
@@ -95,7 +104,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 10
         },
         {
             name: '礼物',
@@ -104,7 +114,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 0,
-            status: 1
+            status: 1,
+            id: 11
         },
         {
             name: '工资',
@@ -113,7 +124,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 1,
-            status: 1
+            status: 1,
+            id: 12
         },
         {
             name: '理财',
@@ -122,7 +134,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 1,
-            status: 1
+            status: 1,
+            id: 13
         },
         {
             name: '礼金',
@@ -131,7 +144,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 1,
-            status: 1
+            status: 1,
+            id: 14
         },
         {
             name: '兼职',
@@ -140,7 +154,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 1,
-            status: 1
+            status: 1,
+            id: 15
         },
         {
             name: '白嫖',
@@ -149,7 +164,8 @@ createConnection().then(async connection => {
             created_type: 'default',
             created_by: 0,
             balance_type: 1,
-            status: 1
+            status: 1,
+            id: 16
         }
     ]
     await Promise.all(chargeTypesMsq.map(async (item) => {
